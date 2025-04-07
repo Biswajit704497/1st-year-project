@@ -21,3 +21,15 @@ problems:
 	2.size assignment
 	3.structure of writing data in file
 */
+
+
+=======================================================================
+|                       EMPLOYEE DATABASE                             |
+|						(:-------------:)					          |
+-----------------------------------------------------------------------
+| 1. Add new employees                                                |
+| 2. View employee records											  |
+| 3. Update employee details                                          |
+| 4. Delete employee records                                          |
+|     Enter option:                                                   |
+-----------------------------------------------------------------------
