@@ -5,7 +5,7 @@ Enter
 3. modify
 4. insert
 5. show
-1
+
 -------------------------------------------------------------
 enter the file name without extension: employee
 enter the field names number = 2
