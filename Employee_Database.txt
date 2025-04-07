@@ -25,10 +25,10 @@ problems:
 
 =======================================================================
 |                       EMPLOYEE DATABASE                             |
-|						(:-------------:)					          |
+|			(:-------------:)			      |
 -----------------------------------------------------------------------
 | 1. Add new employees                                                |
-| 2. View employee records											  |
+| 2. View employee records					      |
 | 3. Update employee details                                          |
 | 4. Delete employee records                                          |
 |     Enter option:                                                   |
