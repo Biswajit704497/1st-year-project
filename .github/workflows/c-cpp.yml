@@ -8,16 +8,17 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install GCC
+      run: sudo apt update && sudo apt install -y gcc
+
+    - name: Build C program
+      run: gcc test.c variables_of_projects.c -o myprogram
+
+    - name: Run C program
+      run: ./myprogram
