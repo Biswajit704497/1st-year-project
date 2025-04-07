@@ -1,0 +1,23 @@
+-------------------------------------------------------------
+Enter 
+1. create
+2. deletion
+3. modify
+4. insert
+5. show
+1
+-------------------------------------------------------------
+enter the file name without extension: employee
+enter the field names number = 2
+enter the field name 1:Emp_id
+enter the field name 2:Emp_dept
+-------------------------------------------------------------
+enter the employee id's size(maximum length):10
+enter the employee department max size: 20
+-------------------------------------------------------------
+/*
+problems:
+	1. Assigning names to the fileds
+	2.size assignment
+	3.structure of writing data in file
+*/
