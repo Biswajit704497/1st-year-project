@@ -2,14 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Build and Run C (Windows-style)",
+      "label": "Build and Run C (Linux-style)",
       "type": "shell",
-      "command": "gcc test.c variables_of_projects.c -o myprogram.exe && myprogram.exe",
+      "command": "gcc test.c variables_of_projects.c -o myprogram && ./myprogram",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [] 
+      "problemMatcher": []
     }
   ]
 }
