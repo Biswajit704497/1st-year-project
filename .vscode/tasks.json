@@ -1,19 +1,15 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-      {
-        "label": "Build and Run",
-        "type": "shell",
-        "command": "cmd.exe",
-        "args": [
-          "/c",
-          "gcc test.c variables_of_projects.c -o myprogram.exe && myprogram.exe"
-        ],
-        "group": {
-          "kind": "build",
-          "isDefault": true
-        },
-        "problemMatcher": []
-      }
-    ]
-  }
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run C (Windows-style)",
+      "type": "shell",
+      "command": "gcc test.c variables_of_projects.c -o myprogram.exe && myprogram.exe",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [] 
+    }
+  ]
+}
