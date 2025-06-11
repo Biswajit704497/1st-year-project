@@ -6,11 +6,11 @@ void menu(){
     printf("|=====================================================================|\n");
     printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
     printf("|                                                                     |\n");
-    printf("|    1) Add Employee Record                  2) View Employee Record  |\n");
+    printf("|  1) Add Employee Record                  2) View Employee Record    |\n");
     printf("|                                                                     |\n");
-    printf("|    3) Update Employee Details              4) Delete Employee Record|\n");
+    printf("|  3) Update Employee Details              4) Delete Employee Record  |\n");
     printf("|                                                                     |\n");
-    printf("|    0) Exit                                                          |\n");
+    printf("|  0) Exit                                                            |\n");
     printf("|=====================================================================|\n");
 }
 int main()
