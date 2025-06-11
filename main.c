@@ -28,6 +28,7 @@ int main()
             {
             case 1:
                 /* code */
+                sum(41,65);
                 printf("\n [0] Exit");
                 printf("\n [9] Back Main Menu");
                 printf("\nEnter: ");
@@ -61,10 +62,8 @@ int main()
             default:
                 /* code */
                 printf("\nInvalid Output\n");
-                break;
+                return 0;
             }
         }
     }
-
-    return 0;
 }
