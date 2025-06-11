@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "HaderFile/Add_Employee.h"
-void menu()
+void TableMenu()
 {
     printf("|=====================================================================|\n");
     printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
@@ -19,7 +19,7 @@ int main()
     int option = 100;
     while (option != 0)
     {
-        menu();
+        TableMenu();
         printf("Enter: ");
         scanf("%d", &option);
         while (option != 9 && option != 0)
@@ -30,7 +30,7 @@ int main()
                 /* code */
                 sum(41,65);
                 printf("\n [0] Exit");
-                printf("\n [9] Back Main Menu");
+                printf("\n [9] Back Main TableMenu");
                 printf("\nEnter: ");
                 scanf("%d", &option);
                 break;
@@ -38,7 +38,7 @@ int main()
             case 2:
                 /* code */
                 printf("\n [0] Exit");
-                printf("\n [9] Back Main Menu");
+                printf("\n [9] Back Main TableMenu");
                 printf("\nEnter: ");
                 scanf("%d", &option);
                 break;
@@ -46,7 +46,7 @@ int main()
             case 3:
                 /* code */
                 printf("\n [0] Exit");
-                printf("\n [9] Back Main Menu");
+                printf("\n [9] Back Main TableMenu");
                 printf("\nEnter: ");
                 scanf("%d", &option);
                 break;
@@ -54,7 +54,7 @@ int main()
             case 4:
                 /* code */
                 printf("\n [0] Exit");
-                printf("\n [9] Back Main Menu");
+                printf("\n [9] Back Main TableMenu");
                 printf("\nEnter: ");
                 scanf("%d", &option);
                 break;
