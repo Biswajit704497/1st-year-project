@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "Add_Employee.h"
 void manu(){
     printf("|=====================================================================|\n");
     printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
@@ -24,36 +25,40 @@ int main()
             {
                 case 1:
                     /* code */
-                    // printf("Add Elpoyee");
+                    sum(1,5);
                     printf("\n [0] Exit");
                     printf("\n [9] Back Main Manu");
-                    printf("Enter: ");
+                    printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
 
                 case 2:
+                    /* code */
                     printf("\n [0] Exit");
                     printf("\n [9] Back Main Manu");
-                    printf("Enter: ");
+                    printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
 
                 case 3:
+                    /* code */
                     printf("\n [0] Exit");
                     printf("\n [9] Back Main Manu");
-                    printf("Enter: ");
+                    printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
 
                 case 4:
+                    /* code */
                     printf("\n [0] Exit");
                     printf("\n [9] Back Main Manu");
-                    printf("Enter: ");
+                    printf("\nEnter: ");
                     scanf("%d",&option);
                      break;
 
                 default:
-                printf("Invalid Output\n");
+                    /* code */
+                    printf("\nInvalid Output\n");
                     break;
             }
         }
