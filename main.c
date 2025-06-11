@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "HaderFile/Add_Employee.h"
-void manu(){
+void menu(){
     printf("|=====================================================================|\n");
     printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
     printf("|                                                                     |\n");
@@ -17,7 +17,7 @@ int main()
 {
     int option=100;
     while(option != 0){
-        manu();
+        menu();
         printf("Enter: ");
         scanf("%d",&option);
         while(option != 9 && option != 0){
