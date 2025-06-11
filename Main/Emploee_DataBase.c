@@ -1,11 +1,63 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+void manu(){
+    printf("|=====================================================================|\n");
+    printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
+    printf("|                                                                     |\n");
+    printf("|    1) Add Employee Record                  2) View Employee Record  |\n");
+    printf("|                                                                     |\n");
+    printf("|    3) Update Employee Details              4) Delete Employee Record|\n");
+    printf("|                                                                     |\n");
+    printf("|    0) Exit                                                          |\n");
+    printf("|=====================================================================|\n");
+}
 int main()
 {
-    int a;
-    printf("Enter a number: ");
-    scanf("%d",&a);
-    for(int i=0;i<=a;i++){
-        printf("%d ",i);
+    int option=100;
+    while(option != 0){
+        manu();
+        printf("Enter: ");
+        scanf("%d",&option);
+        while(option != 9 && option != 0){
+            switch(option)
+            {
+                case 1:
+                    /* code */
+                    // printf("Add Elpoyee");
+                    printf("\n [0] Exit");
+                    printf("\n [9] Back Main Manu");
+                    printf("Enter: ");
+                    scanf("%d",&option);
+                    break;
+
+                case 2:
+                    printf("\n [0] Exit");
+                    printf("\n [9] Back Main Manu");
+                    printf("Enter: ");
+                    scanf("%d",&option);
+                    break;
+
+                case 3:
+                    printf("\n [0] Exit");
+                    printf("\n [9] Back Main Manu");
+                    printf("Enter: ");
+                    scanf("%d",&option);
+                    break;
+
+                case 4:
+                    printf("\n [0] Exit");
+                    printf("\n [9] Back Main Manu");
+                    printf("Enter: ");
+                    scanf("%d",&option);
+                     break;
+
+                default:
+                printf("Invalid Output\n");
+                    break;
+            }
+        }
+
     }
 
     return 0;
