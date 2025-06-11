@@ -2,7 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include "HaderFile/Add_Employee.h"
-void menu(){
+void menu()
+{
     printf("|=====================================================================|\n");
     printf("|============ *** WELLCOME EMPLOYEE MANAGEMENR SYSTEM *** ============|\n");
     printf("|                                                                     |\n");
@@ -15,54 +16,54 @@ void menu(){
 }
 int main()
 {
-    int option=100;
-    while(option != 0){
+    int option = 100;
+    while (option != 0)
+    {
         menu();
         printf("Enter: ");
-        scanf("%d",&option);
-        while(option != 9 && option != 0){
-            switch(option)
+        scanf("%d", &option);
+        while (option != 9 && option != 0)
+        {
+            switch (option)
             {
-                case 1:
-                    /* code */
-                    sum(1,5);
-                    printf("\n [0] Exit");
-                    printf("\n [9] Back Main Menu");
-                    printf("\nEnter: ");
-                    scanf("%d",&option);
-                    break;
+            case 1:
+                /* code */
+                printf("\n [0] Exit");
+                printf("\n [9] Back Main Menu");
+                printf("\nEnter: ");
+                scanf("%d", &option);
+                break;
 
-                case 2:
-                    /* code */
-                    printf("\n [0] Exit");
-                    printf("\n [9] Back Main Menu");
-                    printf("\nEnter: ");
-                    scanf("%d",&option);
-                    break;
+            case 2:
+                /* code */
+                printf("\n [0] Exit");
+                printf("\n [9] Back Main Menu");
+                printf("\nEnter: ");
+                scanf("%d", &option);
+                break;
 
-                case 3:
-                    /* code */
-                    printf("\n [0] Exit");
-                    printf("\n [9] Back Main Menu");
-                    printf("\nEnter: ");
-                    scanf("%d",&option);
-                    break;
+            case 3:
+                /* code */
+                printf("\n [0] Exit");
+                printf("\n [9] Back Main Menu");
+                printf("\nEnter: ");
+                scanf("%d", &option);
+                break;
 
-                case 4:
-                    /* code */
-                    printf("\n [0] Exit");
-                    printf("\n [9] Back Main Menu");
-                    printf("\nEnter: ");
-                    scanf("%d",&option);
-                     break;
+            case 4:
+                /* code */
+                printf("\n [0] Exit");
+                printf("\n [9] Back Main Menu");
+                printf("\nEnter: ");
+                scanf("%d", &option);
+                break;
 
-                default:
-                    /* code */
-                    printf("\nInvalid Output\n");
-                    break;
+            default:
+                /* code */
+                printf("\nInvalid Output\n");
+                break;
             }
         }
-
     }
 
     return 0;
