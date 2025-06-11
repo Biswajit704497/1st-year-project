@@ -1,7 +1,12 @@
 {
-    "label": "Build and Run C (Linux-style)",
-    "type": "shell",
-    "command": "gcc main.c HaderFile/Add_Employee.c -o program && ./program",
-    "group": "build",
-    "problemMatcher": []
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run C (Linux-style)",
+            "type": "shell",
+            "command": "gcc main.c HaderFile/Add_Employee.c -o program && ./program",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
 }
