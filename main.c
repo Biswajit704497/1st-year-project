@@ -27,7 +27,7 @@ int main()
                     /* code */
                     sum(1,5);
                     printf("\n [0] Exit");
-                    printf("\n [9] Back Main Manu");
+                    printf("\n [9] Back Main Menu");
                     printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
@@ -35,7 +35,7 @@ int main()
                 case 2:
                     /* code */
                     printf("\n [0] Exit");
-                    printf("\n [9] Back Main Manu");
+                    printf("\n [9] Back Main Menu");
                     printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
@@ -43,7 +43,7 @@ int main()
                 case 3:
                     /* code */
                     printf("\n [0] Exit");
-                    printf("\n [9] Back Main Manu");
+                    printf("\n [9] Back Main Menu");
                     printf("\nEnter: ");
                     scanf("%d",&option);
                     break;
@@ -51,7 +51,7 @@ int main()
                 case 4:
                     /* code */
                     printf("\n [0] Exit");
-                    printf("\n [9] Back Main Manu");
+                    printf("\n [9] Back Main Menu");
                     printf("\nEnter: ");
                     scanf("%d",&option);
                      break;
